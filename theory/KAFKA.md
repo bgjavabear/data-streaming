@@ -10,6 +10,14 @@ All data in a topic is in key-value form
 
 Sends data to a topic
 
+#### Synchronous producers
+
+Block producer program execution until the broker has confirmed receipt
+
+#### Asynchronous producers
+
+Callback for delivered events or errors
+
 ## Consumer
 
 Retrieve events from Kafka topics

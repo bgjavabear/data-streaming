@@ -106,4 +106,4 @@ async def consume(topic_name):
 
 
 if __name__ == "__main__":
-    main()
+    print(confluent_kafka.cimpl.__version__)
